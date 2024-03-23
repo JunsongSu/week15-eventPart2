@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LikeButton from './components/like-button';
+import ReplyButton from './components/reply-button';
+import Comment from './components/comment';
+import Post from './components/post';
+import NewsFeed from './components/news-feed';
+import Container from './components/container';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Container />
   </React.StrictMode>
 );
 
